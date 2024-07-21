@@ -1,0 +1,18 @@
+.container {
+    border: 2px solid red;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat();
+    grid: template rows 75px; ;
+
+}
+
+.container > div{
+    border: 2px;
+    display: flex;
+    justify-content: center;
+}
+.container > div{
+    image-resolution: 2px ;
+}
