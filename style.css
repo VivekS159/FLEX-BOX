@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #003366;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#hero h2 {
+    color: #004080;
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#hero .btn {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#hero .btn:hover {
+    background-color: #003366;
+}
+
+#highlights {
+    margin-bottom: 40px;
+}
+
+#highlights h2 {
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlights-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.highlight {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.highlight img {
+    border-radius: 5px;
+}
+
+.highlight h3 {
+    color: #0059b3;
+    margin-top: 10px;
+}
+
+.highlight p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+#about-us {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about-us h2 {
+    color: #004080;
+    font-size: 2em;
+}
+
+#about-us p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#about-us .btn {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#about-us .btn:hover {
+    background-color: #003366;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .highlights-container {
+        flex-direction: column;
+    }
+
+    .highlight {
+        width: 100%;
+    }
+}
